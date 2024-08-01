@@ -27,10 +27,10 @@ body{
 -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
 }
-img.links_logo {
+img.header_logo {
   height:80px;
 }
-div.links2 {
+div.header {
   text-align:center;
   z-index: 140;
   display: block;
@@ -51,10 +51,11 @@ div.links {
 * {
   box-sizing: border-box;
 }
-img.logo {
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
+@media screen and (max-width: 600px) {
+  img.header_logo {
+    height: 60px;
+  }
+
 }
 main  {
   margin: 100px auto;
@@ -113,7 +114,6 @@ main  {
     background-image: url("../images/5.jpeg");
     animation-delay: 24s; 
 }
-
 
 
 @keyframes imageAnimation { 

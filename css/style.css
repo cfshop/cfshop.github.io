@@ -95,22 +95,22 @@ main  {
 
 
 .slideshow li:nth-child(1) span { 
-    background-image: url("../images/2.jpeg"); 
+    background-image: url("../images/1.jpeg"); 
 }
 .slideshow li:nth-child(2) span { 
-    background-image: url("../images/3.jpeg");
+    background-image: url("../images/2.jpeg");
     animation-delay: 6s; 
 }
 .slideshow li:nth-child(3) span { 
-    background-image: url("../images/4.jpeg");
+    background-image: url("../images/3.jpeg");
     animation-delay: 12s; 
 }
 .slideshow li:nth-child(4) span { 
-    background-image: url("../images/2.jpeg");   
+    background-image: url("../images/4.jpeg");   
     animation-delay: 18s; 
 }
 .slideshow li:nth-child(5) span { 
-    background-image: url("../images/3.jpeg");
+    background-image: url("../images/5.jpeg");
     animation-delay: 24s; 
 }
 

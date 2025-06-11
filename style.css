@@ -30,6 +30,9 @@ body {
   display: flex;
   gap: 1.5rem;
   z-index: 150;
+    letter-spacing:-2px;
+  font-family: "Nosifer", sans-serif;
+  font-style: normal;
 }
 
 .nav-links li a {
@@ -37,7 +40,6 @@ body {
   text-decoration: none;
   transition: color 0.3s;
     z-index: 150;
-
 }
 
 .nav-links li a:hover {
@@ -209,7 +211,7 @@ background-attachment: fixed;
 
 .insta-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 10px;
 }
 

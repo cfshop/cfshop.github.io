@@ -180,3 +180,32 @@ body {
     align-items: center;
   }
 }
+/* Instagram Feed Styles */
+.instagram-feed {
+  padding: 2rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.instagram-feed h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.insta-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.insta-grid img:hover {
+  transform: scale(1.05);
+}

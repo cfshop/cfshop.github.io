@@ -8,6 +8,7 @@
 body {
   font-family: sans-serif;
   background-color: black;
+  height: 100vh;
 }
 
 .navbar {
@@ -221,7 +222,7 @@ background-attachment: fixed;
 }
 
 .insta-grid img {
-  width: 100%;
+  width: 70%;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease;

@@ -10,7 +10,18 @@ body {
   background-color: black;
   height: 100vh;
 }
+.floating-logo {
+  position: fixed;
+  top: clamp(12px, 2vw, 24px);
+  left: clamp(12px, 2vw, 24px);
+  z-index: 9999;
+}
 
+.floating-logo img {
+  width: clamp(80px, 12vw, 160px);
+  height: auto;
+  display: block;
+}
 .navbar {
   display: flex;
   align-items: center;
